@@ -1,0 +1,104 @@
+{
+  "startUrl": "http://localhost.local/~username/kita-list/list.html",
+  "selectors": [
+    {
+      "parentSelectors": [
+        "_root"
+      ],
+      "type": "SelectorLink",
+      "multiple": true,
+      "id": "kitas",
+      "selector": "td a",
+      "delay": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "name",
+      "selector": "h1 span",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "address",
+      "selector": "span#lblStrasse",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "tel",
+      "selector": "span.ZweiteSpalte",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "email",
+      "selector": "a#HLinkEMail.ZweiteSpalte",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "website",
+      "selector": "a#HLinkWeb.ZweiteSpalte",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "schedule",
+      "selector": "span#lblOeffnungMontag",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "capacity",
+      "selector": "td:nth-of-type(2)",
+      "delay": "",
+      "regex": ""
+    },
+    {
+      "parentSelectors": [
+        "kitas"
+      ],
+      "type": "SelectorText",
+      "multiple": false,
+      "id": "min_age",
+      "selector": "td:nth-of-type(4)",
+      "delay": "",
+      "regex": ""
+    }
+  ],
+  "_id": "kita-list"
+}
